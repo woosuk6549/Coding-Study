@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{1B435F23-9CFE-456D-A396-1DB8DD57C453}</ProjectGuid>
+    <ProjectGuid>{1D1C1B2D-7751-4873-99C9-70BDBAD691CE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>githubtest</RootNamespace>
+    <RootNamespace>알고리즘백준</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -143,7 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="githubtest.cpp" />
+    <ClCompile Include="스택_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
