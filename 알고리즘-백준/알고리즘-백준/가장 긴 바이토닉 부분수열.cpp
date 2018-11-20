@@ -2,10 +2,11 @@
 #include <algorithm>
 #include <string.h>
 using namespace std;
-
+//바이토닉 부분수열 : S[0]<S[1]<...< S[k] >S[k+1]>S[k+2]>....>S[n]
 int S[1001], cache[1001];
 int n;
-bool change = false;
+
+bool change = false;//내림차순으로 변화시 true
 int func(int start) {
 	int& ret = cache[start];
 	if (ret != -1)return ret;
@@ -16,7 +17,7 @@ int func(int start) {
 			ret = max(ret,func(next)+1);
 		}
 		if (S[start] > S[next]) {
-			change = true;
+			change = true; 
 			ret = max(ret, func(next) + 1);
 			change = false;
 		}
