@@ -12,6 +12,7 @@ int func(int start) {
 	if (ret != -1)return ret;
 
 	ret = 1;
+
 	for (int next = start + 1; next < n; ++next) {
 		if (S[start] < S[next]&&change==false) {
 			ret = max(ret,func(next)+1);
