@@ -35,8 +35,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class.cs" />
+    <None Include="Class.cs" />
     <None Include="Method.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
