@@ -39,7 +39,10 @@
     <None Include="Method.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface.cs" />
+    <None Include="Interface.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Property.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
